@@ -25,7 +25,7 @@ def xfibo(count):
 
     lastnum, currentnum = 0, 1
     counter = 0
-    while counter <= count:
+    while counter < count:
         yield lastnum
         lastnum, currentnum = currentnum, lastnum + currentnum
         counter += 1
